@@ -1,2 +1,2 @@
-# module-2-project-2
-module 2 project 2/html/css/bootstrap
+# Module-2-The-Command-Line-Git
+Command Line &amp; Git/ Basic Bootstrap Project

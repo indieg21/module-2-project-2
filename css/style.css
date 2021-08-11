@@ -1,0 +1,123 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  background-image: url("https://images.unsplash.com/photo-1490682143684-14369e18dce8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 90vh;
+  background-color: #fca25a;
+}
+nav {
+  border-bottom: 1px solid white;
+}
+
+.header__details {
+  text-align: center;
+  margin-top: 20vh;
+  color: white;
+}
+
+.header__details > .btn__style {
+  background-color: #d66a01;
+  padding: 8px 16px;
+  border: 0;
+  border-radius: 50px;
+}
+
+.section_1 {
+  padding: 25px;
+  height: 40vh;
+  background-color: #ae5f16;
+  text-align: center;
+  color: white;
+}
+
+.section_1 > img {
+  width: 80px;
+  height: 70px;
+}
+.img-circle {
+  border-radius: 50%;
+}
+
+.section_3 {
+  background-color: #6f4014;
+  color: white;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.gallery .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    color: white;
+    
+
+
+}
+
+.gallery .item:hover {
+
+    padding: 5px;
+}
+
+.gallery .item-1 {
+  background-image: url("https://images.unsplash.com/photo-1529161898721-2928ca74afee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80");
+
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.gallery .item-2 {
+    background-image: url("https://images.unsplash.com/photo-1568659585069-facb248c4935?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+  
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    object-fit: center;
+  }
+
+  .gallery .item-3 {
+    background-image: url("https://images.unsplash.com/photo-1572970385182-97a64c98205b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=752&q=80");
+  
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+
+  .contact-details {
+
+    background-color: #6F4014;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+  }
+
+  .footer-info {
+
+    text-align: center;
+    padding: 30px;
+  }
